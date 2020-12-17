@@ -25,6 +25,7 @@ function generatePassword() {
 
   if (!upperCase && !lowerCase && !number && !specialChar) {
     alert("Must select a character.");
+    return "";
   }
   else {
     var charAvail = "";
